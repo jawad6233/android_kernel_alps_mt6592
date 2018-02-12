@@ -18,6 +18,7 @@
 #define LCD_DEBUG(fmt)  printk(fmt)
 #endif
 
+extern LCM_DRIVER hx8394d_hd720_dsi_vdo_p34_lcm_drv;
 extern LCM_DRIVER lp079x01_lcm_drv;
 extern LCM_DRIVER hx8369_lcm_drv;
 extern LCM_DRIVER hx8369_6575_lcm_drv;
@@ -619,7 +620,7 @@ static unsigned char lcd_id_pins_value = 0xFF;
 
 /******************************************************************************
 Function:       which_lcd_module_triple
-  Description:    read LCD ID PIN status,could identify three status:high¡¢low¡¢float
+  Description:    read LCD ID PIN status,could identify three status:highÂ¡Â¢lowÂ¡Â¢float
   Input:           none
   Output:         none
   Return:         LCD ID1|ID0 value
