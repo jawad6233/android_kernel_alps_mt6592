@@ -276,6 +276,10 @@ LCM_DRIVER* lcm_driver_list[] =
 #if defined(HX8369_6575_DSI_QVGA)
 	&hx8369_dsi_6575_qvga_lcm_drv,
 #endif
+	
+	#if defined(HX8394D_HD720_DSI_VDO_P34)
+	&hx8394d_hd720_dsi_vdo_p34_lcm_drv,
+#endif
 
 #if defined(HX8369_HVGA)
 	&hx8369_hvga_lcm_drv,
